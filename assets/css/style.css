@@ -73,7 +73,7 @@ ul {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, .3);
     transition: box-shadow .5s;
     padding: 16px;
-    text-align: justify;
+    letter-spacing: 0.5px;
 
 }
 
@@ -83,7 +83,6 @@ ul {
 }
 
 .hero-item_img {
-    max-width: 250px;
     width: 100%;
 }
 
@@ -98,6 +97,8 @@ ul {
     margin-bottom: 11px;
     font-size: 16px;
     color: #111517;
+    overflow-y: scroll;
+    height: 50px;
 }
 
 .hero-about_overview {
